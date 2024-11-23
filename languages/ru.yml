@@ -1,0 +1,113 @@
+# Напиток
+Brew_-times: -раз
+Brew_BadPotion: Испорченное Зелье
+Brew_BarrelRiped: Выдержки в Бочке
+Brew_DistillUndefined: Мутный Дистиллят
+Brew_Distilled: Дистиллированно
+Brew_LessDistilled: Плохо Дистиллированно
+Brew_HundredsOfYears: Сотни Лет
+Brew_Ingredients: Ингредиенты
+Brew_MinutePluralPostfix: ⠀
+Brew_OneYear: Один Год
+Brew_ThickBrew: Густой отвар
+Brew_Undefined: Котельное варево
+Brew_Woodtype: Тип Дерева
+Brew_Years: Лет
+Brew_fermented: ферментировано
+Brew_minute: мин
+Brew_Alc: Алк &v1мл
+
+# Команды
+CMD_Copy_Error: '&6&v1 &cНапитки не поместились в ваш инвентарь'
+CMD_Info_Drunk: '&v1 напился на &6&v2% &f, с качеством &6&v3'
+CMD_Info_NotDrunk: '&v1 не пьян'
+CMD_NonStatic: '&eНапиток больше не статичен и будет снова настаиваться в бочках.'
+CMD_Player: '&a&v1 теперь пьян на &6&v2% &a, с качеством &6&v3'
+CMD_Player_Error: '&cКачество должно быть между 1 и 10!'
+CMD_Reload: '&aКонфигурация успешно перезагружена'
+CMD_Created: '&aНапиток создан'
+CMD_Configname: '&aИмя для конфигурации: &f&v1'
+CMD_Configname_Error: '&cПредмет в вашей руке не найден'
+CMD_Static: '&aНапиток теперь статичен и не будет изменяться в бочках или зельеварках.'
+CMD_UnLabel: '&aЭтикетка удалена!'
+CMD_Drink: '&aВы выпили 1 &v1'
+CMD_DrinkOther: '&a&v1 выпивает 1 &v2'
+
+# Ошибки
+Error_ConfigUpdate: 'Неизвестная версия конфигурации Brewery: v&v1, конфигурация не была обновлена!'
+Error_ItemNotPotion: '&cПредмет в вашей руке не распознан как зелье!'
+Error_SealingTableDisabled: '&cСтол для запечатывания отключен'
+Error_SealedAlwaysStatic: 'Запечатанные Зелья всегда статичны!'
+Error_AlreadyUnlabeled: '&cЗелье в вашей руке уже без этикетки!'
+Error_NoBarrelAccess: '&cУ вас нет прав на доступ к этой бочке!'
+Error_NoBrewName: '&cРецепт с именем: ''&v1&c'' не найден!'
+Error_NoPermissions: '&cУ вас нет прав для выполнения этого действия!'
+Error_PlayerCommand: '&cЭта команда может быть выполнена только игроком!'
+Error_Recipeload: '&cНе все рецепты удалось восстановить: Подробности в логах сервера!'
+Error_ShowHelp: Используйте &6/brew help &fдля отображения справки
+Error_UnknownCommand: Неизвестная команда
+Error_YmlRead: 'Не удалось прочитать файл config.yml, убедитесь, что файл имеет правильный формат yml (правильные пробелы, использование '' '' и т.д.)'
+Error_NoPlayer: 'Игрок не найден: &v1'
+
+# Другое
+Etc_Barrel: Бочка
+Etc_Page: Страница
+Etc_Usage: 'Использование:'
+Etc_SealingTable: Стол для Закупорки Бражки
+
+# Help
+Help_Copy: '&6/brew copy [Количество]&9 Копирует зелье в вашей руке'
+Help_Create: '&6/brew create <Рецепт> [Качество] [Игрок] &9Создает зелье с опциональным качеством (1-10)'
+Help_Give: '&6/brew give <Рецепт> [Качество] [Игрок] &9Альтернатива для /brew create'
+Help_Delete: '&6/brew delete &9Удаляет зелье в вашей руке'
+Help_Help: '&6/brew help [Страница] &9Показывает определенную страницу справки'
+Help_Info: '&6/brew info&9 Показывает ваш текущий уровень опьянения и качество'
+Help_InfoOther: '&6/brew info [Игрок]&9 Показывает текущий уровень опьянения и качество у [Игрок]'
+Help_Player: '&6/brew <Игрок> <%Опьянение> [Качество]&9 Устанавливает уровень опьянения (и качество) игрока'
+Help_Reload: '&6/brew reload &9Перезагружает конфигурацию'
+Help_Configname: '&6/brew ItemName &9Показывает имя предмета в руке для конфигурации'
+Help_Static: '&6/brew static &9Делает зелье статичным -> Без дальнейшего старения или дистилляции'
+Help_UnLabel: '&6/brew unlabel &9Удаляет детализированную этикетку с зелья'
+Help_Seal: '&6/brew seal &9Запечатывает зелья для продажи в магазинах'
+Help_Wakeup: '&6/brew wakeup list <Страница>&9 Показывает все точки пробуждения'
+Help_WakeupAdd: '&6/brew wakeup add &9Добавляет точку пробуждения в вашем текущем положении'
+Help_WakeupCheck: '&6/brew wakeup check &9Телепортирует ко всем точкам пробуждения'
+Help_WakeupCheckSpecific: '&6/brew wakeup check <id> &9Телепортирует к точке пробуждения с <id>'
+Help_WakeupList: '&6/brew wakeup list <Страница> [Мир]&9 Показывает все точки пробуждения в <мире>'
+Help_WakeupRemove: '&6/brew wakeup remove <id> &9Удаляет точку пробуждения с <id>'
+Help_Puke: '&6/brew puke [Игрок] [Количество] &9Заставляет вас или [Игрока] стошнить'
+Help_Drink: '&6/brew drink <Рецепт> [Качество] [Игрок] &9Симулирует, как [Игрок] выпивает зелье'
+
+# Права
+Perms_NoBarrelCreate: '&cУ вас нет прав на создание бочек!'
+Perms_NoBigBarrelCreate: '&cУ вас нет прав на создание больших бочек!'
+Perms_NoCauldronFill: '&cУ вас нет прав на наполнение бутылок из этого котла!'
+Perms_NoCauldronInsert: '&cУ вас нет прав на добавление ингредиентов в котлы!'
+Perms_NoSmallBarrelCreate: '&cУ вас нет прав на создание маленьких бочек!'
+
+# Игрок
+Player_BarrelCreated: Бочка создана
+Player_BarrelFull: '&cЭта бочка больше не может вмещать напитки'
+Player_CantDrink: Вы больше не можете пить.
+Player_CauldronInfo1: Этот котел кипит уже &v1 минут.
+Player_CauldronInfo2: Этот котел ещё не кипит.
+Player_DrunkPassOut: Вы выпили слишком много и упали в обморок.
+Player_LoginDeny: Ваш персонаж пытается войти, но слишком пьян, чтобы найти сервер. Попробуйте снова!
+Player_LoginDenyLong: Ваш персонаж очень пьян и отключился. Попробуйте снова через 10 минут!
+Player_TriedToSay: '&v1 пытался сказать: &0&v2'
+Player_Wake: Ох нет! Я не помню, как здесь оказался...
+Player_WakeAlreadyDeleted: '&cТочка пробуждения с id: &6&v1 &cуже удалена!'
+Player_WakeCancel: '&6Проверка точек пробуждения была отменена'
+Player_WakeCreated: '&aТочка пробуждения с id: &6&v1 &aуспешно создана!'
+Player_WakeDeleted: '&aТочка пробуждения с id: &6&v1 &aуспешно удалена!'
+Player_WakeFilled: '&cТочка пробуждения с id: &6&v1&c на позиции &6&v2 &v3, &v4, &v5&c заполнена блоками!'
+Player_WakeHint1: 'К следующей точке пробуждения: Ударьте кулаком в воздух'
+Player_WakeHint2: 'Для отмены: &9/brew wakeup cancel'
+Player_WakeLast: '&aЭто была последняя точка пробуждения'
+Player_WakeNoCheck: '&cТекущая проверка точек пробуждения не активна'
+Player_WakeNoPoints: '&cНет точек пробуждения!'
+Player_WakeNotExist: '&cТочка пробуждения с id: &6&v1 &cне существует!'
+Player_WakeTeleport: 'Телепорт к точке пробуждения с id: &6&v1&f на позиции: &6&v2 &v3, &v4, &v5'
+Player_ShopSealBrew: '&eРекомендуется продавать/торговать &6запечатанными &eзельями'
+Player_Drunkeness: 'Опьянение'
+Player_Hangover: 'Ваше Похмелье'
